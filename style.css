@@ -1,0 +1,120 @@
+/*
+   _____                                        _
+  / ____|                                      | |
+ | |  __    ___   _ __     ___   _ __    __ _  | |
+ | | |_ |  / _ \ | '_ \   / _ \ | '__|  / _` | | |
+ | |__| | |  __/ | | | | |  __/ | |    | (_| | | |
+  \_____|  \___| |_| |_|  \___| |_|     \__,_| |_|
+
+*/
+
+html {
+  font-size: 62.5%;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #ecf4f3;
+  color: #555151;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+h1, h2, h3 {
+  color: #57a99a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+a {
+  color: #57a99a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #76dbd1;
+  text-decoration: none;
+}
+
+.container {
+  min-width: 350px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px #C6C6C6;
+  padding: 5%;
+  margin: 3%;
+}
+
+/*
+   _____                         _    __   _
+  / ____|                       (_)  / _| (_)
+ | (___    _ __     ___    ___   _  | |_   _    ___
+  \___ \  | '_ \   / _ \  / __| | | |  _| | |  / __|
+  ____) | | |_) | |  __/ | (__  | | | |   | | | (__
+ |_____/  | .__/   \___|  \___| |_| |_|   |_|  \___|
+          | |
+          |_|
+
+*/
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 1%;
+}
+
+/*
+  __  __              _   _              ____                          _
+ |  \/  |            | | (_)            / __ \                        (_)
+ | \  / |   ___    __| |  _    __ _    | |  | |  _   _    ___   _ __   _    ___   ___
+ | |\/| |  / _ \  / _` | | |  / _` |   | |  | | | | | |  / _ \ | '__| | |  / _ \ / __|
+ | |  | | |  __/ | (_| | | | | (_| |   | |__| | | |_| | |  __/ | |    | | |  __/ \__ \
+ |_|  |_|  \___|  \__,_| |_|  \__,_|    \___\_\  \__,_|  \___| |_|    |_|  \___| |___/
+
+*/
+
+@media (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+}
