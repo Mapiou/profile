@@ -45,7 +45,6 @@ a {
 
 a:hover {
   color: #76dbd1;
-  text-decoration: none;
 }
 
 .container {
@@ -60,6 +59,34 @@ a:hover {
   box-shadow: 2px 2px 3px #C6C6C6;
   padding: 5%;
   margin: 3%;
+}
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #555151;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#btn-to-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#btn-to-up i {
+  font-size: 4rem;
+  opacity: 0.9;
+}
+
+#page-content {
+  margin-left: 150px;
 }
 
 /*
@@ -101,6 +128,10 @@ i {
   font-size: 2rem;
 }
 
+#sidebar i {
+  font-size: 2.6rem;
+}
+
 table {
   width: 100%;
 }
@@ -122,5 +153,13 @@ td {
 @media (max-width: 720px) {
   .container {
     width: 90%;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  #page-content {
+    margin-left: 0;
   }
 }
