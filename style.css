@@ -123,6 +123,10 @@ a:hover {
   list-style: none;
 }
 
+#social {
+  padding-left: 0;
+}
+
 i {
   margin-right: 10px;
   font-size: 2rem;
